@@ -15,6 +15,8 @@ import java.util.stream.Collector;
     public static void main(String[]args){
          JavaGen2<Integer,Integer> iob= new JavaGen2<>(6,7);
          System.out.println(iob.square(10,12));
+         System.out.println(iob.getClass());
+        System.out.println(iob.getClass().getName());
 
 
     }
